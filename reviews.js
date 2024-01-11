@@ -3,7 +3,7 @@ function loadReviews() {
 
     const reviewBox = document.getElementById("review-div");
 
-    fetch('reviews.html', {
+    fetch('https://cdn.jsdelivr.net/gh/AlejandroOlson/reviewTemplate/reviews.html', {
         headers: {
             Accept: "text/html",
         },
