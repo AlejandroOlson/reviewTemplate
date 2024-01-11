@@ -1,9 +1,9 @@
 
-function loadReviews() {
+async function loadReviews() {
 
     const reviewBox = document.getElementById("review-div");
 
-    fetch('https://cdn.jsdelivr.net/gh/AlejandroOlson/reviewTemplate/reviews.html', {
+    await fetch('https://cdn.jsdelivr.net/gh/AlejandroOlson/reviewTemplate/reviews.html', {
         headers: {
             Accept: "text/html",
         },
