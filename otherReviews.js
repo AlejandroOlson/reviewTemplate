@@ -2,12 +2,6 @@
 let html = `
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reviews</title>
-  </head>
   <body>
     <style>
       * {
@@ -227,6 +221,21 @@ let html = `
         display: flex !important;
         flex-direction: row;
       }
+
+      #tm-771bw > div > div > div > div > div > div > div > div > div:nth-child(3) {
+        margin-right: 2em;
+      }
+
+      button#review-button {
+        margin-right: 3em !important;
+      }
+
+      .button-flex {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+      }
+
     </style>
 
     <div>
@@ -484,6 +493,13 @@ let html = `
                             </div>
                           </div>
                         </div>
+                        <div class="button-flex">
+                          <button size="15" id="review-button" class="ButtonBase__ButtonContainer-sc-p43e7i-3 euBiGU es-header-write-review-button" 
+                          type="button" tabindex="0" style="border-radius: 5px; height: 3em; border-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); 
+                          font-family: inherit; font-weight: bold; font-size: 15px; font-style: normal; background-color: rgb(25, 123, 255); 
+                          border-width: 2px;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 8px 21px; background-color: rgba(0, 0, 0, 0);">
+                            <span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy">All Reviews</span></span></button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -492,10 +508,12 @@ let html = `
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </body>
 </html>
+
 
 `
 
