@@ -227,12 +227,12 @@ let html = `
       }
 
       button#review-button {
-        margin-right: 3em !important;
+        /* margin-right: 3em !important; */
       }
 
       .button-flex {
         display: flex !important;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
       }
 
@@ -493,13 +493,7 @@ let html = `
                             </div>
                           </div>
                         </div>
-                        <div class="button-flex">
-                          <button size="15" id="review-button" class="ButtonBase__ButtonContainer-sc-p43e7i-3 euBiGU es-header-write-review-button" 
-                          type="button" tabindex="0" style="border-radius: 5px; height: 3em; border-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); 
-                          font-family: inherit; font-weight: bold; font-size: 15px; font-style: normal; background-color: rgb(25, 123, 255); 
-                          border-width: 2px;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 8px 21px; background-color: rgba(0, 0, 0, 0);">
-                            <span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy">All Reviews</span></span></button>
-                        </div>
+                    
                       </div>
                     </div>
                   </div>
@@ -508,11 +502,19 @@ let html = `
             </div>
           </div>
         </div>
-
+        <div class="button-flex">
+          <button size="15" id="review-button" class="ButtonBase__ButtonContainer-sc-p43e7i-3 euBiGU es-header-write-review-button" 
+          type="button" tabindex="0" style="border-radius: 5px; height: 3em; border-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); 
+          font-family: inherit; font-weight: bold; font-size: 15px; font-style: normal; background-color: rgb(25, 123, 255); 
+          border-width: 2px;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 8px 21px; background-color: rgba(0, 0, 0, 0);">
+            <span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy">All Reviews</span></span></button>
+        </div>
       </div>
     </div>
+    
   </body>
 </html>
+
 
 `
 
