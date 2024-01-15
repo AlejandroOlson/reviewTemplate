@@ -236,6 +236,10 @@ let html = `
         justify-content: center;
       }
 
+      #__next > div > div.MuiBox-root.css-eznd6x > div > div.css-u3lpuf > h4 {
+        display: none !important; /* Hide email */
+      }
+
     </style>
 
     <div>
@@ -506,12 +510,12 @@ let html = `
           <button size="15" id="review-button" class="ButtonBase__ButtonContainer-sc-p43e7i-3 euBiGU es-header-write-review-button" 
           type="button" tabindex="0" style="border-radius: 5px; height: 3em; border-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); 
           font-family: inherit; font-weight: bold; font-size: 15px; font-style: normal; background-color: rgb(25, 123, 255); 
-          border-width: 2px;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 8px 21px; background-color: rgba(0, 0, 0, 0);">
-            <span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy">All Reviews</span></span></button>
+          border-width: 2px;"><a href="https://www.airbnb.com/users/show/48359419" target="_blank" style="text-decoration: none; color: #fff;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 8px 21px; background-color: rgba(0, 0, 0, 0);">
+            <span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy">All Reviews</span></span></a></button>
         </div>
       </div>
     </div>
-    
+
   </body>
 </html>
 
