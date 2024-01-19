@@ -1,3 +1,3 @@
 # reviewTemplate
 
-jsDeliver Template for frontend fix on Airbnb booking site
+jsDeliver Template for frontend reviews on an Airbnb booking site
